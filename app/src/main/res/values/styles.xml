@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Costum action bar style-->
+    <style name="CustomActionBarAudio" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textClr</item>
+    </style>
+
+    <!--Costum popup bar style-->
+    <style name="CustomActionBarAudio.Popup" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@color/textClr</item>
+    </style>
+
+    <!--Setup title action bar-->
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textClr</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!--Remove action bar in splashscreen-->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

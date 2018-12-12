@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Box X Media</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_audio">Add Audio</string>
+    <string name="add_video">Add Video</string>
+    <string name="min">Minutes</string>
+    <string name="sec">Seconds</string>
+    <string name="warn_empty_field">This field can`t be empty</string>
+    <string name="download_start_error">Download error</string>
+</resources>

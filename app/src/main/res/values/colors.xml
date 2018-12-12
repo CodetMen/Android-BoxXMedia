@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b0225</color>
+    <color name="colorPrimaryLight">#312d4d</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ff7700</color>
+    <color name="bgSplashScreen">#0b0225</color>
+    <color name="bgTintButton">#0b0225</color>
+    <color name="textClr">#0fffff</color>
+</resources>

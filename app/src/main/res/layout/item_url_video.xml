@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_url_video"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/six_dp"
+    android:layout_marginTop="@dimen/four_dp"
+    android:layout_marginRight="@dimen/eight_dp"
+    android:layout_marginBottom="@dimen/four_dp"
+    android:layout_marginLeft="@dimen/eight_dp"
+    app:cardCornerRadius="@dimen/eight_dp"
+    android:backgroundTint="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_UrlVideo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/images"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/eight_dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_UrlVideo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_titleVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/textClr"/>
+
+            <TextView
+                android:id="@+id/tv_urlVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://www.google.video.com/"
+                android:textColor="@color/textClr"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_VideoShare"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="share"
+                    android:textColor="@color/textClr"
+                    android:backgroundTint="@color/colorPrimaryLight"/>
+
+                <Button
+                    android:id="@+id/btn_VideoEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="edit"
+                    android:textColor="@color/textClr"
+                    android:backgroundTint="@color/colorPrimaryLight"/>
+
+                <Button
+                    android:id="@+id/btn_VideoPlay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="play"
+                    android:textColor="@color/textClr"
+                    android:backgroundTint="@color/colorPrimaryLight"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
